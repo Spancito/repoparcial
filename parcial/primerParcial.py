@@ -35,9 +35,9 @@ def segundoPunto():
     f"el grupo será de 7 personas, es decir es: 7!/4! = {respuesta_punto_a}")
     print("-"*32)
     print("B.")
-    respuesta_punto_b = (math.factorial(9)/math.factorial(8))
-    print("Si se quiere seleccionar 1 cargo de un grupo de 9 personas," \
-    f" la operación será 9!/8! = {respuesta_punto_b}")
+    respuesta_punto_b = (7*math.factorial(3))
+    print("Si se quiere seleccionar 1 cargo de un grupo de 7 personas," \
+    f" la operación será 7 x 3! = {respuesta_punto_b}")
     print("-"*32)
     print("C.")
     respuesta_punto_c = (math.factorial(8)/math.factorial(6))
@@ -64,7 +64,7 @@ def cuartoPunto():
     def SegundaDerivadaExacta(x):
         return 1.6 * x - 3
 
-    valorX = 0.005
+    valorX = 2.4
     valorVerdaderoPrimera = PrimeraDerivadaExacta(valorX)
     valorVerdaderoSegunda = SegundaDerivadaExacta(valorX)
 
