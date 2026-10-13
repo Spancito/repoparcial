@@ -39,8 +39,7 @@ def RGBAGrisTensor2D(tensor_3d):
 
     return tensor2D
 
-ruta = "marioTaller14.jpg"
-
+ruta = "codes/marioTaller14.png"
 
 tensorRGB = ImagenATensor3D(ruta)
 print(f"Tensor 3D creado con éxito. Dimensiones: {len(tensorRGB)}x{len(tensorRGB[0])}x3")

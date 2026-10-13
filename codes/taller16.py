@@ -1,6 +1,6 @@
 import json
 import math
-with open('dolarTaller16.json', 'r', encoding="utf-8") as file:
+with open('codes/dolarTaller16.json', 'r', encoding="utf-8") as file:
     data = json.load(file)
 
 x = [item['id'] for item in data]
